@@ -18,3 +18,6 @@ export class VarIntString extends UnsizedType<string> {
         strCodec.writePacked(value, dt, options);
     }
 }
+
+
+export const varIntString = new VarIntString();
